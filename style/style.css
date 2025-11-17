@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+    display: flex;          /* Pane elemendid ühele reale */
+    justify-content: center; /* Joonda keskele */
+}
+
+ul li {
+    /* float eemaldatud */
+    border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #111111;
+}
+
+ul li a.active {
+    background-color: #04AA6D;
+}
+header {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+div.flex-container {
+    display: flex;
+    /* Show the flex items horizontally */
+    flex-direction: row;
+}
+
+div.flex-container > div {
+    margin: 10px;
+    border: solid 1pt grey;
+    border-radius:  10px;
+    padding: 10px;
+    flex: 1;
+}
+
+/* Use media query and show the flex items vertically if screen width is less than 600px */
+@media screen and (max-width: 600px) {
+    div.flex-container {
+        flex-direction: column;
+    }
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 8px;
+}
+
