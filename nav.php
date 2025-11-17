@@ -15,5 +15,8 @@
         <li>
             <a href="https://saimonsiipan24.thkit.ee/">vana index leht</a>
         </li>
+        <li>
+            <a href="?leht=gitKasud.php">Git käsud</a>
+        </li>
     </ul>
 </nav>
