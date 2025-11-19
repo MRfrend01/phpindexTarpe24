@@ -63,4 +63,19 @@ footer {
     text-align: center;
     padding: 8px;
 }
+.aja-flex {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.aja-box {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
 
