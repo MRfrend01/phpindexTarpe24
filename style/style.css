@@ -76,6 +76,17 @@ footer {
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+.oige {
+    color: green;
+}
 
+.vale {
+    color: red;
+}
+
+.vihje {
+    color: blue;
+    font-style: italic;
+}
 
 

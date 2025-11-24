@@ -13,6 +13,9 @@
             <a href="?leht=Muusikakusitus.php">Muusikakusitus</a>
         </li>
         <li>
+            <a href="?leht=matemaatilised.php">matemaatillised</a>
+        </li>
+        <li>
             <a href="https://saimonsiipan24.thkit.ee/">vana index leht</a>
         </li>
         <li>
