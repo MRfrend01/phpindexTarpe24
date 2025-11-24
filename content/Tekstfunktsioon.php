@@ -1,4 +1,14 @@
 <?php
+function clearVarsExcept($url, $varname){
+    $url=basename($url);
+    if(str_starts_with($url, "?")){
+        return "?$varname=".$_REQUEST[$varname];
+    }
+    return strtok($url, "?")."?$varname=".$_REQUEST[$varname];
+
+}
+
+
 echo "<h2>Tekstfunktsioonid</h2>";
 $tekst='Veebirakendus on arvutitarkvara programm';
 echo $tekst; //näitab muutuja sisu
@@ -68,7 +78,7 @@ echo "<li>Linnas elab üle 400 000 inimese</li>";
 echo "<br>";
 echo "</ol>";
 ?>
-<form action="Tekstfunktsioon.php" method="post">
+    <form action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "leht")?>" method="post">
     <label for="linn">Sisesta linnanimi</label>
     <input type="text" id="linn" name="linn">
     <input type="submit" value="Kontrolli">
