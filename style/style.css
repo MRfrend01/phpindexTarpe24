@@ -88,5 +88,74 @@ footer {
     color: blue;
     font-style: italic;
 }
+/* Galerii pealkiri */
+h1 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
 
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Vormi stiilid */
+form {
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+form select {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    padding: 5px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
+
+/* Andmete kuvamine */
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+/* Pildi konteiner */
+.gallery-item {
+    margin-top: 20px;
+}
+
+/* PILDID - NÕUTUD STIILID */
+.gallery-item img {
+    /* 1. Ümmargused (ringikujulised) pildid */
+    border-radius: 50%;
+
+    /* 2. Maksimaalne laius 200px */
+    max-width: 200px;
+
+    /* 3. Raam (border) */
+    border: 5px solid #4CAF50;
+
+    /* Lisastiilid */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+}
 
