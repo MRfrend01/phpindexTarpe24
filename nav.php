@@ -18,5 +18,14 @@
         <li>
             <a href="?leht=gitKasud.php">Git käsud</a>
         </li>
+        <li>
+            <a href="?leht=tekstfunktsioon.php">tekstfunktsioon</a>
+        </li>
+        <li>
+            <a href="content/telefon/p2is.php" target="_blank">mobiilimall</a>
+        </li>
+        <li>
+            <a href="content/anekdoot/pais.php" target="_blank">anekdootid</a>
+        </li>
     </ul>
 </nav>
