@@ -1,0 +1,6 @@
+table, td{
+    width: 40%;
+    border: solid 1pt grey;
+    border-collapse: collapse;
+    text-align: center;
+}
